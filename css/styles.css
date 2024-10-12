@@ -606,6 +606,10 @@ button:hover {
   color: #ffffff;
 }
 
+.subscribe_input:focus {
+  outline: none;
+}
+
 .form_button {
   display: flex;
   align-items: center;
@@ -643,6 +647,9 @@ button:hover {
 
   .footer_description {
     max-width: 284px;
+  }
+
+  .footer_item_logo {
     margin-right: 120px;
   }
 
