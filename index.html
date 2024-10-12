@@ -136,7 +136,7 @@
               <div class="card_body">
                 <h3 class="card_title">Mark Guerrero</h3>
                 <p class="card_description">Product Designer</p>
-                <ul class="social_list">
+                <ul class="social_list team_social_list">
                   <li class="social_list_item">
                     <a class="soclial_list_link" href="#">
                       <svg class="soclial_list_icon" width="16" height="16">
@@ -313,7 +313,6 @@
                       ./images/banking_app_desctop.jpg
                     "
                     media="(min-width: 1158px)"
-                    sizes="width: 360; height: 300;"
                   />
                   <source
                     srcset="
@@ -321,14 +320,12 @@
                       ./images/banking_app_tablet.jpg
                     "
                     media="(min-width: 768px)"
-                    sizes="width: 356; height: 300;"
                   />
                   <img
+                    class="portfolio_img"
                     srcset="./images/banking_app_mobile@2.jpg 2x"
                     src="./images/banking_app_mobile.jpg"
                     alt="Banking App"
-                    width="288"
-                    height="280"
                   />
                 </picture>
                 <p class="product_description">
@@ -351,7 +348,6 @@
                       ./images/cashless_payment_desctop.jpg
                     "
                     media="(min-width: 1158px)"
-                    sizes="width: 360; height: 300;"
                   />
                   <source
                     srcset="
@@ -359,14 +355,12 @@
                       ./images/cashless_payment_tablet.jpg
                     "
                     media="(min-width: 768px)"
-                    sizes="width: 356; height: 300;"
                   />
                   <img
+                    class="portfolio_img"
                     srcset="./images/cashless_payment_mobile@2.jpg 2x"
                     src="./images/cashless_payment_mobile.jpg"
                     alt="Cashless Payment"
-                    width="288"
-                    height="280"
                   />
                 </picture>
                 <p class="product_description">
@@ -389,7 +383,6 @@
                       ./images/meditation_app_desctop.jpg
                     "
                     media="(min-width: 1158px)"
-                    sizes="width: 360; height: 300;"
                   />
                   <source
                     srcset="
@@ -397,14 +390,12 @@
                       ./images/meditation_app_tablet.jpg
                     "
                     media="(min-width: 768px)"
-                    sizes="width: 356; height: 300;"
                   />
                   <img
+                    class="portfolio_img"
                     srcset="./images/meditation_app_mobile@2.jpg 2x"
                     src="./images/meditation_app_mobile.jpg"
                     alt="Meditation App"
-                    width="288"
-                    height="280"
                   />
                 </picture>
                 <p class="product_description">
@@ -427,7 +418,6 @@
                       ./images/taxi_service_desctop.jpg
                     "
                     media="(min-width: 1158px)"
-                    sizes="width: 360; height: 300;"
                   />
                   <source
                     srcset="
@@ -435,14 +425,12 @@
                       ./images/taxi_service_tablet.jpg
                     "
                     media="(min-width: 768px)"
-                    sizes="width: 356; height: 300;"
                   />
                   <img
+                    class="portfolio_img"
                     srcset="./images/taxi_service_mobile@2.jpg 2x"
                     src="./images/taxi_service_mobile.jpg"
                     alt="Taxi Service"
-                    width="288"
-                    height="280"
                   />
                 </picture>
                 <p class="product_description">
@@ -465,7 +453,6 @@
                       ./images/screen_illustrations_desctop.jpg
                     "
                     media="(min-width: 1158px)"
-                    sizes="width: 360; height: 300;"
                   />
                   <source
                     srcset="
@@ -473,14 +460,12 @@
                       ./images/screen_illustrations_tablet.jpg
                     "
                     media="(min-width: 768px)"
-                    sizes="width: 356; height: 300;"
                   />
                   <img
+                    class="portfolio_img"
                     srcset="./images/screen_illustrations_mobile@2.jpg 2x"
                     src="./images/screen_illustrations_mobile.jpg"
                     alt="Screen Illustrations"
-                    width="288"
-                    height="280"
                   />
                 </picture>
                 <p class="product_description">
@@ -503,7 +488,6 @@
                       ./images/online_cources_desctop.jpg
                     "
                     media="(min-width: 1158px)"
-                    sizes="width: 360; height: 300;"
                   />
                   <source
                     srcset="
@@ -511,14 +495,12 @@
                       ./images/online_cources_tablet.jpg
                     "
                     media="(min-width: 768px)"
-                    sizes="width: 356; height: 300;"
                   />
                   <img
+                    class="portfolio_img"
                     srcset="./images/online_cources_mobile@2.jpg 2x"
                     src="./images/online_cources_mobile.jpg"
                     alt="Online Courses"
-                    width="288"
-                    height="280"
                   />
                 </picture>
                 <p class="product_description">
@@ -608,29 +590,31 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <ul class="mobile_menu_list">
-          <li><a href="#" class="mobile_menu_link">Studio</a></li>
-          <li><a href="#" class="mobile_menu_link">Portfolio</a></li>
-          <li><a href="#" class="mobile_menu_link">Contacts</a></li>
-        </ul>
+        <div class="footer_nav">
+          <ul class="mobile_menu_list">
+            <li><a href="#" class="mobile_menu_link active">Studio</a></li>
+            <li><a href="#" class="mobile_menu_link">Portfolio</a></li>
+            <li><a href="#" class="mobile_menu_link">Contacts</a></li>
+          </ul>
+        </div>
         <address class="footer_contacts">
           <ul class="footer_contacts_list">
+            <li>
+              <a class="footer_contacts_link active" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
             <li>
               <a class="footer_contacts_link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="footer_contacts_link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
           </ul>
         </address>
-        <ul class="social_list">
+        <ul class="social_list mobile_social_list">
           <li class="social_list_item">
             <a class="soclial_list_link" href="#">
-              <svg class="soclial_list_icon" width="16" height="16">
+              <svg class="soclial_list_icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
@@ -659,7 +643,7 @@
         </ul>
       </div>
     </div>
-    <div class="modal_overlay">
+    <div class="modal_overlay is-open">
       <div class="modal">
         <button class="modal_close" type="button">
           <svg class="modal_close_icon" width="8" height="8">
