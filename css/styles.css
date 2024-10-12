@@ -630,6 +630,10 @@ button:hover {
     flex-wrap: wrap;
   }
 
+  .footer_logo {
+    text-align: left;
+  }
+
   .subscribe_form {
     display: flex;
     gap: 24px;
@@ -641,6 +645,11 @@ button:hover {
 }
 
 @media screen and (min-width: 1158px) {
+  .footer_content {
+    column-gap: 0;
+    row-gap: 0;
+  }
+
   .footer_logo {
     text-align: left;
   }
